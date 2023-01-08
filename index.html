@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5 FORM</title>
+</head>
+<body background="./NADEEM.jpeg">
+<form method="post">
+    <center><img src="./download.png" alt="" width="200" height="200"></center>
+    <center><b><i><u><h1>HTML 5 FORM</u></i></b></center></h1>
+    <hr>
+    <div>
+    Name*   
+    <input type="text" name="Name" required placeholder="NAME">
+    <br>
+    <br>
+    Father Name*
+    <input type="text" name="Father Name" required placeholder="FATHER NAME">
+    <br>
+    <br>
+    Password*
+    <input type="Password" name="Password" required placeholder="PASSWORD" maxlength="15">
+    <br>
+    <br>
+    Address*
+    <textarea name="Address" id="Address" cols="30" rows="10" required placeholder="PLEASE TYPE YOUR ADDRESS" ></textarea>
+    <br>
+    <br>
+    Email Id*
+    <input type="email" name="Email" id="Email" maxlength="30" required placeholder="PLEASE TYPE YOUR EMAIL">
+    <br>
+    <br>
+    Please Select Your Gender*
+    <fieldset>
+    <legend>Gender</legend>
+    Male*
+    <input type="radio" name="Gender" id="Male" required checked="MALE">
+    Female*
+    <input type="radio" name="Gender" id="Female" required></fieldset>
+    <br>
+    Please Select Your IMAGE*
+    <br>
+    <input type="File" name="User-image" required>
+    <br>
+    <input type="Submit" name="UpLoad" required>
+    <center><input type="submit" value="Submit" width="1000" height="1000"></center></div>
+    <p>
+    <center><h1><i><b><u> PAYMENT FORM</u></b></i></h1></center>
+    <hr>
+    Select a card Type*
+    <select name="Card Type" id="Card Type" required>
+    <option value="">--Select a card Type--</option>
+    <option value="RUPEES">RUPEES</option required>
+    <option value="DOLLAR">DOLLAR</option required>
+    <option value="DEPT CARD">DEPT CARD</option required></select>
+    <hr>
+    Select Card Number*
+    <input type="number" name="Card Number" id="Card Number" maxlength="12" required placeholder="TYPE CARD NUMBER">
+   <hr> 
+   Card Exper Date*
+   <input type="date" name="Exper Date" id="Exper Date" required placeholder="card EXPER DATE">
+   <hr>
+   <center><input type="submit" value="Pay Now" width="1000" height="1000"></center></p></form>
+</body>
+</html>
